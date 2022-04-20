@@ -17,7 +17,7 @@ namespace eHonestGamesTlg
 				new []
 				{
 					InlineKeyboardButton.WithSwitchInlineQuery(text: "Поделиться ботом"),
-					InlineKeyboardButton.WithUrl(text: "Об авторе", url: "https://ehonest.ru"),
+					InlineKeyboardButton.WithUrl(text: "Об авторе", url: Setting.URL),
 				},
 			});
 
